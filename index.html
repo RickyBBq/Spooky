@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stupid Scary Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Stupid Scary Game!</h1>
+        <p>You find yourself in a dark, creepy forest...</p>
+        <button onclick="startGame()">Start Game</button>
+        <div id="encounter" class="hidden">
+            <p id="story"></p>
+            <button onclick="makeChoice('run')">Run</button>
+            <button onclick="makeChoice('hide')">Hide</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
